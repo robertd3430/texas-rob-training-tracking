@@ -75,7 +75,7 @@ export default function NewWorkoutPage() {
       }, 1000)
     }
     return () => clearInterval(interval)
-  }, [timer.isRunning])
+  }, )
 
   // Add a new set to the current exercise
   const addSet = () => {
